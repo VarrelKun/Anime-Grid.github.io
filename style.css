@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;
+}
+body{
+    background:rgb(177, 27, 27);
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+    font-weight:500;
+}
+/*Hero section  */
+.hero-section{
+    padding:2% 5%;
+}
+.h-img{
+    border: 6px solid ;
+    box-shadow: 5px 10px ;
+}
+/*cooustm Text*/
+.coustm-text{
+    transform: rotate(-3deg);
+    margin-top:10px ;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem ;
+    background:rgb(236, 236, 236);
+    font-weight: bold;
+    border: 3px solid ;
+    box-shadow: 5px 10px ;
+}
+.section-movie{
+    margin-top: 10px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); 
+    gap: 20px;
+    align-items: center;
+}
+.img-style{ 
+    border: 3px solid ;
+    box-shadow: 5px 10px ;
+    border-radius:6px;
+    cursor: pointer;
+}
+.btn-more{
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: rgb(151, 151, 151);
+    border: 2px solid;
+    box-shadow: 5px 10px;
+} 
+ 
+/*Bottom Img*/
+.text-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.card{
+    border: 3px solid black;
+    box-shadow: 5px 10px black;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.icon-bg{
+    width: 100%;
+    border: 2px solid black;
+    border-radius:6px;
+    background:rgb(236, 236, 236);
+    box-shadow: 5px 10px black;
+    transform: rotate(6deg);
+}
